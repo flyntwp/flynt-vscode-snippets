@@ -396,11 +396,12 @@
       "{",
       "\t\"label\": \"$1\",",
       "\t\"type\": \"flexible_content\",",
-      "\t\"button_label\": \"Add ${2:Content}\",",
-      "\t\"min\": ${3:0},",
-      "\t\"max\": ${4:0},",
+      "\t\"name\": \"$2\",",
+      "\t\"button_label\": \"Add ${3:Content}\",",
+      "\t\"min\": ${4:0},",
+      "\t\"max\": ${5:0},",
       "\t\"layouts\": [",
-      "\t\t$5",
+      "\t\t$6",
       "\t]",
       "}"
     ]
