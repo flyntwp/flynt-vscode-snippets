@@ -11,7 +11,7 @@
     "homepage": "https://github.com/flyntwp/flynt-vscode-snippets/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/flyntwp/flynt-vscode-snippets/blob/master/README.md"
+        "url": "https://github.com/flyntwp/flynt-vscode-snippets/"
     },
     "engines": {
         "vscode": "^1.19.0"
