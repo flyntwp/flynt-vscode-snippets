@@ -1,45 +1,45 @@
 {
-    "name": "flynt-vscode-snippets",
-    "displayName": "Flynt Snippets",
-    "description": "Snippets for development with the Flynt framework.",
-    "version": "0.1.0",
-    "publisher": "flyntwp",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/flyntwp/flynt-vscode-snippets/issues"
-    },
-    "homepage": "https://github.com/flyntwp/flynt-vscode-snippets/",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/flyntwp/flynt-vscode-snippets/"
-    },
-    "engines": {
-        "vscode": "^1.19.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "Flynt"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "json",
-                "path": "./snippets/json.json"
-            },
-            {
-                "language": "php",
-                "path": "./snippets/php.json"
-            }
-        ]
-    },
-    "scripts": {
-        "release": "standard-version -a",
-        "releaseGithub": "conventional-github-releaser -p angular"
-    },
-    "devDependencies": {
-        "conventional-github-releaser": "^2.0.0",
-        "standard-version": "^4.2.0"
-    }
+  "name": "flynt-vscode-snippets",
+  "displayName": "Flynt Snippets",
+  "description": "Snippets for development with the Flynt framework.",
+  "version": "0.2.0",
+  "publisher": "flyntwp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyntwp/flynt-vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/flyntwp/flynt-vscode-snippets/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyntwp/flynt-vscode-snippets/"
+  },
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "Flynt"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/php.json"
+      }
+    ]
+  },
+  "scripts": {
+    "release": "standard-version -a",
+    "releaseGithub": "conventional-github-releaser -p angular"
+  },
+  "devDependencies": {
+    "conventional-github-releaser": "^2.0.0",
+    "standard-version": "^4.2.0"
+  }
 }
