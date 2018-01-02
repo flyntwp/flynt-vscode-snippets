@@ -1,7 +1,6 @@
 # Change Log
-All notable changes to the "flynt-vscode-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [Unreleased]
-- Initial release
+<a name="0.1.0"></a>
+# 0.1.0 (2018-01-02)
