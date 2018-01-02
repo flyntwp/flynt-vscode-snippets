@@ -189,7 +189,8 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"true_false\",",
-      "\t\"default_value\": ${3:0}",
+      "\t\"default_value\": ${3:0},",
+      "\t\"ui\": ${4:1}",
       "}"
     ]
   },
