@@ -75,7 +75,7 @@
       "\t\"type\": \"wysiwyg\",",
       "\t\"tabs\": \"${3:visual|text}\",",
       "\t\"toolbar\": \"${4:full|basic}\",",
-      "\t\"media_upload\": ${5:0}",
+      "\t\"media_upload\": ${5:0},",
       "\t\"delay\": ${6:1}",
       "}"
     ]
