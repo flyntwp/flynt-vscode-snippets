@@ -155,7 +155,7 @@
       "\t\"type\": \"select\",",
       "\t\"allow_null\": ${3|false,true|},",
       "\t\"multiple\": ${4|false,true|},",
-      "\t\"ui\": ${5|true,false},",
+      "\t\"ui\": ${5|true,false|},",
       "\t\"ajax\": ${6|false,true|},",
       "\t\"choices\": {",
       "\t\t\"$7\": $8",
