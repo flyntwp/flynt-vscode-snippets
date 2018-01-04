@@ -17,9 +17,9 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"textarea\",",
-      "\t\"maxlength\": ${3:0},",
-      "\t\"rows\": ${4:0},",
-      "\t\"new_lines\": \"${5:wpautop|br}\"",
+      "\t\"maxlength\": $3,",
+      "\t\"rows\": ${4:8},",
+      "\t\"new_lines\": \"${5|wpautop,br|}\"",
       "}"
     ]
   },
@@ -73,10 +73,10 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"wysiwyg\",",
-      "\t\"tabs\": \"${3:visual|text}\",",
-      "\t\"toolbar\": \"${4:full|basic}\",",
-      "\t\"media_upload\": ${5:0},",
-      "\t\"delay\": ${6:1}",
+      "\t\"tabs\": \"${3|visual\\,text,visual,text|}\",",
+      "\t\"toolbar\": \"${4|full,basic|}\",",
+      "\t\"media_upload\": ${5|false,true|},",
+      "\t\"delay\": ${6|true,false|}",
       "}"
     ]
   },
@@ -97,9 +97,9 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"image\",",
-      "\t\"return_format\": \"${3:array|url|id}\",",
-      "\t\"preview_size\": \"${4:thumbnail}\",",
-      "\t\"library\": \"${5:all|uploadedTo}\",",
+      "\t\"return_format\": \"${3|array,url,id|}\",",
+      "\t\"preview_size\": \"${4|thumbnail,medium,large,full|}\",",
+      "\t\"library\": \"${5|all,uploadedTo|}\",",
       "\t\"min_width\": ${6:0},",
       "\t\"max_width\": ${7:0},",
       "\t\"min_height\": ${8:0},",
@@ -117,8 +117,8 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"file\",",
-      "\t\"return_format\": \"${3:array|url|id}\",",
-      "\t\"library\": \"${4:all|uploadedTo}\",",
+      "\t\"return_format\": \"${3|array,url,id|}\",",
+      "\t\"library\": \"${4|all,uploadedTo|}\",",
       "\t\"min_size\": ${5:0},",
       "\t\"max_size\": ${6:0},",
       "\t\"mime_types\": \"${7:zip,pdf}\"",
@@ -134,8 +134,8 @@
       "\t\"type\": \"gallery\",",
       "\t\"min\": ${3:0},",
       "\t\"max\": ${4:0},",
-      "\t\"preview_size\": \"${5:thumbnail}\",",
-      "\t\"library\": \"${6:all|uploadedTo}\",",
+      "\t\"preview_size\": \"${5|thumbnail,medium,large,full|}\",",
+      "\t\"library\": \"${6|all,uploadedTo|}\",",
       "\t\"min_width\": ${7:0},",
       "\t\"max_width\": ${8:0},",
       "\t\"min_height\": ${9:0},",
@@ -157,10 +157,10 @@
       "\t\t\"$3\": $4",
       "\t},",
       "\t\"default_value\": \"$5\",",
-      "\t\"allow_null\": ${6:0},",
-      "\t\"multiple\": ${7:0},",
-      "\t\"ui\": ${8:1},",
-      "\t\"ajax\": ${9:0}",
+      "\t\"allow_null\": ${6|false,true|},",
+      "\t\"multiple\": ${7|false,true|},",
+      "\t\"ui\": ${8|true,false},",
+      "\t\"ajax\": ${9|false,true|}",
       "}"
     ]
   },
@@ -175,8 +175,8 @@
       "\t\t\"$3\": \"$4\"",
       "\t},",
       "\t\"default_value\": \"$5\",",
-      "\t\"layout\": \"${6:horizontal|vertical}\",",
-      "\t\"toggle\": ${7:1}",
+      "\t\"layout\": \"${6|horizontal,vertical|}\",",
+      "\t\"toggle\": ${7|true,false|}",
       "}"
     ]
   },
@@ -187,8 +187,8 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"true_false\",",
-      "\t\"default_value\": ${3:0},",
-      "\t\"ui\": ${4:1}",
+      "\t\"default_value\": ${3|0,1|},",
+      "\t\"ui\": ${4|true,false|}",
       "}"
     ]
   },
@@ -203,9 +203,9 @@
       "\t\t\"$3\": \"$4\"",
       "\t},",
       "\t\"default_value\": \"$5\",",
-      "\t\"other_choice\": ${6:0},",
-      "\t\"save_other_choice\": ${7:0},",
-      "\t\"layout\": \"${8:horizontal|vertical}\"",
+      "\t\"other_choice\": ${6|false,true|},",
+      "\t\"save_other_choice\": ${7|false,true|},",
+      "\t\"layout\": \"${8|horizontal,vertical|}\"",
       "}"
     ]
   },
@@ -216,11 +216,11 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"user_role_selector\",",
-      "\t\"return_value\": \"${3:object|name}\",",
+      "\t\"return_value\": \"${3|object,name|}\",",
       "\t\"allowed_roles\": [",
       "\t\t\"$4\"",
       "\t],",
-      "\t\"field_type\": \"${5:checkbox|multi_select|radio_buttons|select}\"",
+      "\t\"field_type\": \"${5|checkbox,multi_select,radio_buttons,select|}\"",
     "}"
     ]
   },
@@ -237,10 +237,10 @@
       "\t\"taxonomy\": [",
       "\t\t\"$4\"",
       "\t],",
-      "\t\"allow_null\": ${5:0},",
-      "\t\"multiple\": ${6:0},",
-      "\t\"return_format\": \"${7:object|id}\",",
-      "\t\"ui\": ${8:1}",
+      "\t\"allow_null\": ${5|false,true},",
+      "\t\"multiple\": ${6|false,true},",
+      "\t\"return_format\": \"${7|object,id|}\",",
+      "\t\"ui\": ${8|true,false|}",
       "}"
     ]
   },
@@ -257,8 +257,8 @@
       "\t\"taxonomy\": [",
       "\t\t\"$4\"",
       "\t],",
-      "\t\"allow_null\": ${5:0},",
-      "\t\"multiple\": ${6:0}",
+      "\t\"allow_null\": ${5|false,true|},",
+      "\t\"multiple\": ${6|false,true|}",
       "}"
     ]
   },
@@ -283,7 +283,7 @@
       "\t],",
       "\t\"min\": ${7:0},",
       "\t\"max\": ${8:0},",
-      "\t\"return_format\": \"${9:object|id}\"",
+      "\t\"return_format\": \"${9|object,id|}\"",
       "}"
     ]
   },
@@ -295,13 +295,13 @@
       "\t\"name\": \"$2\",",
       "\t\"type\": \"taxonomy\",",
       "\t\"taxonomy\": \"$3\",",
-      "\t\"field_type\": \"${4:checkbox|multi_select|radio_buttons|select}\",",
-      "\t\"allow_null\": ${5:0},",
-      "\t\"multiple\": ${6:0},",
-      "\t\"add_term\": ${7:0},",
-      "\t\"save_terms\": ${8:0},",
-      "\t\"load_terms\": ${9:0},",
-      "\t\"return_format\": \"${10:object|id}\"",
+      "\t\"field_type\": \"${4|checkbox,multi_select,radio_buttons,select|}\",",
+      "\t\"allow_null\": ${5|false,true|},",
+      "\t\"multiple\": ${6|false,true|},",
+      "\t\"add_term\": ${7|false,true|},",
+      "\t\"save_terms\": ${8|false,true|},",
+      "\t\"load_terms\": ${9|false,true|},",
+      "\t\"return_format\": \"${10|object,id|}\"",
       "}"
     ]
   },
@@ -315,8 +315,8 @@
       "\t\"role\": [",
       "\t\t\"$3\"",
       "\t],",
-      "\t\"allow_null\": ${3:0},",
-      "\t\"multiple\": ${4:0}",
+      "\t\"allow_null\": ${3|false,true|},",
+      "\t\"multiple\": ${4|false,true|}",
       "}"
     ]
   },
@@ -329,8 +329,8 @@
       "\t\"type\": \"google_map\",",
       "\t\"center_lat\": ${3:0},",
       "\t\"center_lng\": ${4:0},",
-      "\t\"zoom\": ${5:0},",
-      "\t\"height\": ${6:100}",
+      "\t\"zoom\": ${5:14},",
+      "\t\"height\": ${6:400}",
       "}"
     ]
   },
@@ -342,8 +342,8 @@
       "\t\"name\": \"$2\",",
       "\t\"type\": \"date_picker\",",
       "\t\"display_format\": \"${3:d.m.Y}\",",
-      "\t\"return_format\": \"${4:d.m.Y}\",",
-      "\t\"first_day\": ${5:1}",
+      "\t\"return_format\": \"${4:Y-m-d}\",",
+      "\t\"first_day\": ${5|1,0,2,3,4,5,6|}",
       "}"
     ]
   },
@@ -354,8 +354,8 @@
       "\t\"label\": \"$1\",",
       "\t\"type\": \"message\",",
       "\t\"message\": \"$2\",",
-      "\t\"new_lines\": \"${3:wpautop|br}\",",
-      "\t\"esc_html\": ${4:1}",
+      "\t\"new_lines\": \"${3|wpautop,br|}\",",
+      "\t\"esc_html\": ${4|true,false|}",
       "}"
     ]
   },
@@ -366,8 +366,8 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"tab\",",
-      "\t\"placement\": \"${3:top|bottom}\",",
-      "\t\"endpoint\": ${4:0}",
+      "\t\"placement\": \"${3|top,bottom,left,right|}\",",
+      "\t\"endpoint\": ${4|false,true|}",
       "}"
     ]
   },
@@ -381,7 +381,7 @@
       "\t\"collapsed\": \"$3\",",
       "\t\"min\": ${4:0},",
       "\t\"max\": ${5:0},",
-      "\t\"layout\": \"${6:table|block|row}\",",
+      "\t\"layout\": \"${6|table,block,row|}\",",
       "\t\"button_label\": \"Add ${7:Item}\",",
       "\t\"sub_fields\": [",
       "\t\t$8",
@@ -412,7 +412,7 @@
       "\t\"label\": \"$1\",",
       "\t\"type\": \"link\",",
       "\t\"name\": \"$2\",",
-      "\t\"return_format\": \"${3:array|url}\"",
+      "\t\"return_format\": \"${3|array,url|}\"",
       "}"
     ]
   },
@@ -423,9 +423,9 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"accordion\",",
-      "\t\"open\": ${3:false},",
-      "\t\"multi_expand\": ${4:true},",
-      "\t\"endpoint\": ${5:false}",
+      "\t\"open\": ${3|false,true|},",
+      "\t\"multi_expand\": ${4|true,false|},",
+      "\t\"endpoint\": ${5|false,true|}",
       "}"
     ]
   },
