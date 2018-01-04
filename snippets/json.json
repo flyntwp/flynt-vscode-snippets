@@ -315,8 +315,8 @@
       "\t\"role\": [",
       "\t\t\"$3\"",
       "\t],",
-      "\t\"allow_null\": ${3|false,true|},",
-      "\t\"multiple\": ${4|false,true|}",
+      "\t\"allow_null\": ${4|false,true|},",
+      "\t\"multiple\": ${5|false,true|}",
       "}"
     ]
   },
