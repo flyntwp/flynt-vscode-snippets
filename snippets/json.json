@@ -415,5 +415,18 @@
       "\t\"return_format\": \"${3:array|url}\"",
       "}"
     ]
+  },
+  "Accordion": {
+    "prefix": "flyntAccordion",
+    "body": [
+      "{",
+      "\t\"label\": \"$1\",",
+      "\t\"name\": \"$2\",",
+      "\t\"type\": \"accordion\",",
+      "\t\"open\": ${3:false},",
+      "\t\"multi_expand\": ${4:true},",
+      "\t\"endpoint\": ${5:false}",
+      "}"
+    ]
   }
 }
