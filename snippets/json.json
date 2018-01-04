@@ -237,8 +237,8 @@
       "\t\"taxonomy\": [",
       "\t\t\"$4\"",
       "\t],",
-      "\t\"allow_null\": ${5|false,true},",
-      "\t\"multiple\": ${6|false,true},",
+      "\t\"allow_null\": ${5|false,true|},",
+      "\t\"multiple\": ${6|false,true|},",
       "\t\"return_format\": \"${7|object,id|}\",",
       "\t\"ui\": ${8|true,false|}",
       "}"
