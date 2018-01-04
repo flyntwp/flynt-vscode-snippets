@@ -6,7 +6,7 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"text\",",
-      "\t\"maxlength\": $3",
+      "\t\"maxlength\": ${3:0}",
       "}"
     ]
   },
@@ -17,7 +17,7 @@
       "\t\"label\": \"$1\",",
       "\t\"name\": \"$2\",",
       "\t\"type\": \"textarea\",",
-      "\t\"maxlength\": $3,",
+      "\t\"maxlength\": ${3:0},",
       "\t\"rows\": ${4:8},",
       "\t\"new_lines\": \"${5|wpautop,br|}\"",
       "}"
