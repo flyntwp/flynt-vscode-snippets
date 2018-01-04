@@ -396,7 +396,7 @@
       "\t\"label\": \"$1\",",
       "\t\"type\": \"flexible_content\",",
       "\t\"name\": \"$2\",",
-      "\t\"button_label\": \"Add ${3:Content}\",",
+      "\t\"button_label\": \"Add ${3:Component}\",",
       "\t\"min\": ${4:0},",
       "\t\"max\": ${5:0},",
       "\t\"layouts\": [",
