@@ -404,5 +404,16 @@
       "\t]",
       "}"
     ]
+  },
+  "Link": {
+    "prefix": "flyntLink",
+    "body": [
+      "{",
+      "\t\"label\": \"$1\",",
+      "\t\"type\": \"link\",",
+      "\t\"name\": \"$2\",",
+      "\t\"return_format\": \"${3:array|url}\"",
+      "}"
+    ]
   }
 }
