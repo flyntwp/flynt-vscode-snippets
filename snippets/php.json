@@ -5,7 +5,7 @@
 			"use Flynt\\\\Features\\\\Components\\\\Component;",
 			"",
 			"add_action('wp_enqueue_scripts', function () {",
-			"\tComponent::enqueueAssets('${1:ComponentName}'${2:, []});",
+			"\tComponent::enqueueAssets('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}'${2:, []});",
 			"});"
 		]
 	},
@@ -22,7 +22,7 @@
 	"Add Component Data": {
 		"prefix": "flyntComponentData",
 		"body": [
-			"add_filter('Flynt/addComponentData?name=${1:ComponentName}', function (\\$data${2:, \\$parentData, \\$config}) {",
+			"add_filter('Flynt/addComponentData?name=${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', function (\\$data${2:, \\$parentData, \\$config}) {",
 			"\t$4",
 			"",
 			"\treturn \\$data;",
@@ -32,15 +32,15 @@
 	"Flynt Component Scaffolding": {
 		"prefix": "flyntComponentScaffolding",
 		"body": [
-			"namespace Flynt\\\\Components\\\\${1:ComponentName};",
+			"namespace Flynt\\\\Components\\\\${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}};",
 			"",
 			"use Flynt\\\\Features\\\\Components\\\\Component;",
 			"",
 			"add_action('wp_enqueue_scripts', function () {",
-			"\tComponent::enqueueAssets('${1:ComponentName}');",
+			"\tComponent::enqueueAssets('$1');",
 			"});",
 			"",
-			"add_filter('Flynt/addComponentData?name=${1:ComponentName}', function (\\$data) {",
+			"add_filter('Flynt/addComponentData?name=$1', function (\\$data) {",
 			"\treturn \\$data;",
 			"});"
 		]
