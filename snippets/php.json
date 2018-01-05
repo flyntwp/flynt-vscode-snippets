@@ -14,8 +14,8 @@
 		"body": [
 			"[",
 			"\t'name' => '$1',",
-			"\t'path' => '${2:vendor/}',",
-			"\t'type' => '${3:script|style}'",
+			"\t'path' => 'vendor/$2',",
+			"\t'type' => '${3|script,style|}'",
 			"],$4"
 		]
 	},
