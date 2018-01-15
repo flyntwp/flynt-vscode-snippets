@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.3.0...v0.4.0) (2018-01-15)
+
+
+### Bug Fixes
+
+* **snippets/php:** use choice placeholder in component asset dependency snippet ([8264f79](https://github.com/flyntwp/flynt-vscode-snippets/commit/8264f79))
+
+
+### Features
+
+* **snippets/json:** add ACF conditional logic property snippet ([583a7f1](https://github.com/flyntwp/flynt-vscode-snippets/commit/583a7f1))
+* **snippets/json:** add ACF group field snippet ([732ae32](https://github.com/flyntwp/flynt-vscode-snippets/commit/732ae32))
+* **snippets/php:** add current directory name as Component name automatically ([b8a440d](https://github.com/flyntwp/flynt-vscode-snippets/commit/b8a440d))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.2.1...v0.3.0) (2018-01-04)
 
