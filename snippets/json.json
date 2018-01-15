@@ -416,6 +416,19 @@
       "}"
     ]
   },
+  "Group": {
+    "prefix": "flyntGroup",
+    "body": [
+      "{",
+      "\t\"label\": \"$1\",",
+      "\t\"name\": \"$2\",",
+      "\t\"type\": \"group\",",
+      "\t\"sub_fields\": [",
+      "\t\t$3",
+      "\t]",
+      "}"
+    ]
+  },
   "Accordion": {
     "prefix": "flyntAccordion",
     "body": [
