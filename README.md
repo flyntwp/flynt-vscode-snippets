@@ -25,10 +25,14 @@ Install the extension from the [Visual Studio Code Marketplace](https://marketpl
 
 The extension adds snippets prefixed with `flynt` for the following language extensions:
 
-- JSON: ACF field templates to be used in the `fields.json` file of a component.
-- PHP: Commonly used code templates and scaffolding.
+### JSON
+- ACF field templates to be used in the `fields.json` file of a component.
+- Custom post type `config.json` template.
 
-Start typing `flynt` in those languages to see a list of the available snippets.
+### PHP
+- Commonly used code templates and scaffolding.
+
+Start typing `flynt` in one of these languages to see a list of the available snippets.
 
 ## Maintainers
 
