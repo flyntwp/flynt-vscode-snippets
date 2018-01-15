@@ -441,6 +441,20 @@
       "}"
     ]
   },
+  "Conditional Logic": {
+    "prefix": "flyntConditionalLogic",
+    "body": [
+      "\"conditional_logic\": [",
+      "\t[",
+      "\t\t{",
+      "\t\t\t\"fieldPath\": \"$1\",",
+      "\t\t\t\"operator\": \"${2|==,!=|}\",",
+      "\t\t\t\"value\": \"$3\"",
+      "\t\t}",
+      "\t]",
+      "]"
+    ]
+  },
   "Custom Post Type Config": {
     "prefix": "flyntCustomPostTypeConfig",
     "body": [
