@@ -44,5 +44,15 @@
 			"\treturn \\$data;",
 			"});"
 		]
+	},
+	"Dynamic Subcomponent": {
+		"prefix": "flyntDynamicSubcomponent",
+		"body": [
+			"add_filter('Flynt/dynamicSubcomponents?name=${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', function (\\$areas, \\$data, \\$parentData) {",
+			"\t$2",
+			"",
+			"\treturn \\$areas;",
+			"}, 10, 3);"
+		]
 	}
 }
