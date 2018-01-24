@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.4.0...v0.5.0) (2018-01-24)
+
+
+### Features
+
+* **snippets/php:** add dynamic subcomponent snippet ([d0d235b](https://github.com/flyntwp/flynt-vscode-snippets/commit/d0d235b))
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.3.0...v0.4.0) (2018-01-15)
 

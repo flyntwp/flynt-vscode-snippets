@@ -2,7 +2,7 @@
   "name": "flynt-vscode-snippets",
   "displayName": "Flynt Snippets",
   "description": "Snippets for development with the Flynt framework.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "publisher": "flyntwp",
   "license": "MIT",
   "bugs": {
