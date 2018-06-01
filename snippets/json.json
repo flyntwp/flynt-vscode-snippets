@@ -352,9 +352,10 @@
       "{",
       "\t\"label\": \"$1\",",
       "\t\"type\": \"message\",",
-      "\t\"message\": \"$2\",",
-      "\t\"new_lines\": \"${3|wpautop,br|}\",",
-      "\t\"esc_html\": ${4|true,false|}",
+      "\t\"name\": \"$2\",",
+      "\t\"message\": \"$3\",",
+      "\t\"new_lines\": \"${4|wpautop,br|}\",",
+      "\t\"esc_html\": ${5|true,false|}",
       "}"
     ]
   },
