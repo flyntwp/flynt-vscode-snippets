@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.5.0...v0.6.0) (2018-06-01)
+
+
+### Bug Fixes
+
+* **snippets/json:** add missing name property to message field ([b7f62dd](https://github.com/flyntwp/flynt-vscode-snippets/commit/b7f62dd))
+
+
+### Features
+
+* **snippets/json:** add button group field ([23981a6](https://github.com/flyntwp/flynt-vscode-snippets/commit/23981a6))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.4.0...v0.5.0) (2018-01-24)
 
