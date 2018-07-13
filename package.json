@@ -36,6 +36,10 @@
       {
         "language": "twig",
         "path": "./snippets/twig.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
       }
     ]
   },

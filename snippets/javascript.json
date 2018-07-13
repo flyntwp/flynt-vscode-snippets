@@ -1,0 +1,6 @@
+{
+  "File Loader Import": {
+    "prefix": "flyntFileLoaderImport",
+    "body": "import 'file-loader?name=vendor/${1:file.ext}!${2|uglify-loader,csso-loader|}!${3:package-path}'"
+  }
+}
