@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.6.0...v0.7.0) (2018-07-13)
+
+
+### Features
+
+* **snippets/javascript:** add file loader import snippet ([a9f2d47](https://github.com/flyntwp/flynt-vscode-snippets/commit/a9f2d47))
+* **snippets/twig:** add twig area snippet ([63fc9bb](https://github.com/flyntwp/flynt-vscode-snippets/commit/63fc9bb))
+
+
+
 <a name="0.6.0"></a>
 # [0.6.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.5.0...v0.6.0) (2018-06-01)
 
