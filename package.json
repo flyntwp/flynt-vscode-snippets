@@ -32,6 +32,10 @@
       {
         "language": "php",
         "path": "./snippets/php.json"
+      },
+      {
+        "language": "twig",
+        "path": "./snippets/twig.json"
       }
     ]
   },
