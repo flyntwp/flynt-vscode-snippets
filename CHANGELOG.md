@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.7.0...v0.8.0) (2018-08-28)
+
+
+### Features
+
+* **snippets/php:** update component scaffolding and remove unused snippet ([#1](https://github.com/flyntwp/flynt-vscode-snippets/issues/1)) ([eaaf898](https://github.com/flyntwp/flynt-vscode-snippets/commit/eaaf898))
+
+
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.6.0...v0.7.0) (2018-07-13)
 
