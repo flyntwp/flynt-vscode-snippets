@@ -1,14 +1,4 @@
 {
-	"Add Component Assets": {
-		"prefix": "flyntComponentAssets",
-		"body": [
-			"use Flynt\\\\Features\\\\Components\\\\Component;",
-			"",
-			"add_action('wp_enqueue_scripts', function () {",
-			"\tComponent::enqueueAssets('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}'${2:, []});",
-			"});"
-		]
-	},
 	"Add Component Asset Dependency": {
 		"prefix": "flyntComponentDependency",
 		"body": [
@@ -36,11 +26,10 @@
 			"",
 			"use Flynt\\\\Features\\\\Components\\\\Component;",
 			"",
-			"add_action('wp_enqueue_scripts', function () {",
-			"\tComponent::enqueueAssets('$1');",
-			"});",
-			"",
 			"add_filter('Flynt/addComponentData?name=$1', function (\\$data) {",
+			"\tadd_action('wp_enqueue_scripts', function () {",
+			"\t\tComponent::enqueueAssets('$1');",
+			"\t});",
 			"\treturn \\$data;",
 			"});"
 		]
