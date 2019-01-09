@@ -515,34 +515,20 @@
 		  "]"
 		]
 	},
-	"Custom Post Type Config": {
-		"prefix": "flyntCustomPostTypeConfig",
+	"Add Translatable Options": {
+		"prefix": "flyntTranslatable",
 		"body": [
-		  "[",
-		  "\t\"label\" => \"${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}s/}}\",",
-		  "\t\"singular_label\" => \"${2:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}\",",
-		  "\t\"description\" => \"$3\",",
-		  "\t\"public\" => ${4|true,false|},",
-		  "\t\"has_archive\" => ${5|true,false|},",
-		  "\t\"supports\" => [",
-		  "\t\t\"title\",",
-		  "\t\t\"revisions\"",
-		  "\t],",
-		  "\t\"labels\" => {",
-		  "\t\t\"menu_name\" => \"$1\",",
-		  "\t\t\"all_items\" => \"All $1\",",
-		  "\t\t\"add_new\" => \"New $2\",",
-		  "\t\t\"add_new_item\" => \"Add New $2\",",
-		  "\t\t\"edit\" => \"Edit $2\",",
-		  "\t\t\"edit_item\" => \"Edit $2\",",
-		  "\t\t\"new_item\" => \"New $2\",",
-		  "\t\t\"view_item\" => \"Show $2\",",
-		  "\t\t\"search_items\" => \"Search $1\",",
-		  "\t\t\"not_found\" => \"No $2 Found\",",
-		  "\t\t\"not_found_in_trash\" => \"No $1 Found In Trash\"",
-		  "\t},",
-		  "\t\"menu_icon\" => \"dashicons-${6:admin-generic}\"",
-		  "]"
+			"Options::addTranslatable('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
+			"\t$2",
+			"]);"
+		]
+	},
+	"Add Global Options": {
+		"prefix": "flyntGlobal",
+		"body": [
+			"Options::addGlobal('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
+			"\t$2",
+			"]);"
 		]
 	}
 }
