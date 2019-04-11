@@ -500,16 +500,6 @@
       "]);"
     ]
   },
-  "Add Component Asset Dependency": {
-    "prefix": "flyntComponentDependency",
-    "body": [
-      "[",
-      "\t'name' => '$1',",
-      "\t'path' => 'vendor/$2',",
-      "\t'type' => '${3|script,style|}'",
-      "],$4"
-    ]
-  },
   "Add Component Data": {
     "prefix": "flyntComponentData",
     "body": [
@@ -533,16 +523,6 @@
       "\t});",
       "\treturn \\$data;",
       "});"
-    ]
-  },
-  "Dynamic Subcomponent": {
-    "prefix": "flyntDynamicSubcomponent",
-    "body": [
-      "add_filter('Flynt/dynamicSubcomponents?name=${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', function (\\$areas, \\$data, \\$parentData) {",
-      "\t$2",
-      "",
-      "\treturn \\$areas;",
-      "}, 10, 3);"
     ]
   }
 }
