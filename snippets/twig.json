@@ -1,6 +1,0 @@
-{
-  "Component Area": {
-    "prefix": "flyntArea",
-    "body": "{{ area('$1') }}"
-  }
-}
