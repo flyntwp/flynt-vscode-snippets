@@ -20,6 +20,8 @@ Snippets for development with the Flynt framework.
 
 This extension provides a number of helpful [Visual Studio Code](https://code.visualstudio.com/) snippets for use with the [Flynt framework](https://flyntwp.com/).
 
+If you are looking for the old Flynt snippets (v0.x), please see the [legacy extension](https://marketplace.visualstudio.com/itemdetails?itemName=flyntwp.flynt-vscode-snippets-legacy) in the Visual Studio Code Marketplace.
+
 ## Install
 
 Install the extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/) or the extensions tab.
