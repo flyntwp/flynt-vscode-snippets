@@ -503,11 +503,11 @@
   "Add Component Data": {
     "prefix": "flyntComponentData",
     "body": [
-      "add_filter('Flynt/addComponentData?name=${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', function (\\$data${2:, \\$parentData, \\$config}) {",
+      "add_filter('Flynt/addComponentData?name=${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', function (\\$data${2:, \\$componentName}) {",
       "\t$4",
       "",
       "\treturn \\$data;",
-      "}${3:, 10, 3});"
+      "}${3:, 10, 2});"
     ]
   },
   "Flynt Component Scaffolding": {
