@@ -509,20 +509,5 @@
       "\treturn \\$data;",
       "}${3:, 10, 2});"
     ]
-  },
-  "Flynt Component Scaffolding": {
-    "prefix": "flyntComponentScaffolding",
-    "body": [
-      "namespace Flynt\\\\Components\\\\${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}};",
-      "",
-      "use Flynt\\\\Features\\\\Components\\\\Component;",
-      "",
-      "add_filter('Flynt/addComponentData?name=$1', function (\\$data) {",
-      "\tadd_action('wp_enqueue_scripts', function () {",
-      "\t\tComponent::enqueueAssets('$1');",
-      "\t});",
-      "\treturn \\$data;",
-      "});"
-    ]
   }
 }
