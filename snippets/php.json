@@ -485,7 +485,7 @@
     ]
   },
   "Add Translatable Options": {
-    "prefix": "flyntTranslatable",
+    "prefix": "flyntTranslatableOption",
     "body": [
       "Options::addTranslatable('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
       "\t$2",
@@ -493,7 +493,7 @@
     ]
   },
   "Add Global Options": {
-    "prefix": "flyntGlobal",
+    "prefix": "flyntGlobalOption",
     "body": [
       "Options::addGlobal('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
       "\t$2",
