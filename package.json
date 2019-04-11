@@ -48,7 +48,7 @@
     "releaseGithub": "conventional-github-releaser -p angular"
   },
   "devDependencies": {
-    "conventional-github-releaser": "^2.0.0",
-    "standard-version": "^4.2.0"
+    "conventional-github-releaser": "^3.1.2",
+    "standard-version": "^5.0.2"
   }
 }
