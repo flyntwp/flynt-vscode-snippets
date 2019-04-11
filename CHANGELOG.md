@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.8.0...v1.0.0) (2019-04-11)
+
+
+### Features
+
+* **snippets/php:** add new Flynt snippets for PHP ([#3](https://github.com/flyntwp/flynt-vscode-snippets/issues/3)) ([7cc8bd1](https://github.com/flyntwp/flynt-vscode-snippets/commit/7cc8bd1))
+* **snippets/php:** add use statement to register fields snippets ([96305ef](https://github.com/flyntwp/flynt-vscode-snippets/commit/96305ef))
+* **snippets/php:** update flyntComponentData snippet for new Flynt ([58d0b64](https://github.com/flyntwp/flynt-vscode-snippets/commit/58d0b64))
+
+
+
 <a name="0.8.0"></a>
 # [0.8.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.7.0...v0.8.0) (2018-08-28)
 
