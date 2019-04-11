@@ -473,6 +473,8 @@
   "Register Fields": {
     "prefix": "flyntRegisterFields",
     "body": [
+      "use Flynt\\Api;",
+      "",
       "Api::registerFields('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
       "\t'layout' => [",
       "\t\t'name' => '$2',",
