@@ -6,12 +6,15 @@ Snippets for development with the Flynt framework.
 
 ## Table of Contents
 
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [Maintainers](#maintainers)
-- [Contribute](#contribute)
-- [License](#license)
+- [Flynt Snippets (flynt-vscode-snippets)](#flynt-snippets-flynt-vscode-snippets)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+  - [Install](#install)
+  - [Usage](#usage)
+    - [PHP](#php)
+  - [Maintainers](#maintainers)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 ## Background
 
@@ -25,12 +28,9 @@ Install the extension from the [Visual Studio Code Marketplace](https://marketpl
 
 The extension adds snippets prefixed with `flynt` for the following language extensions:
 
-### JSON
-- ACF field templates to be used in the `fields.json` file of a component.
-- Custom post type `config.json` template.
-
 ### PHP
 - Commonly used code templates and scaffolding.
+- ACF field templates to be used in the `functions.php` file of a component.
 
 Start typing `flynt` in one of these languages to see a list of the available snippets.
 
