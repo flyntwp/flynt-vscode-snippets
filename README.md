@@ -1,21 +1,27 @@
-# Flynt Snippets (flynt-vscode-snippets)
+# Flynt Snippets Legacy (v0.x) (flynt-vscode-snippets-legacy)
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-Snippets for development with the Flynt framework.
+Legacy snippets for development with the Flynt framework version 0.x.
 
 ## Table of Contents
 
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [Maintainers](#maintainers)
-- [Contribute](#contribute)
-- [License](#license)
+- [Flynt Snippets Legacy (v0.x) (flynt-vscode-snippets-legacy)](#flynt-snippets-legacy-v0x-flynt-vscode-snippets-legacy)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+  - [Install](#install)
+  - [Usage](#usage)
+    - [JSON](#json)
+    - [PHP](#php)
+  - [Maintainers](#maintainers)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 ## Background
 
 This extension provides a number of helpful [Visual Studio Code](https://code.visualstudio.com/) snippets for use with the [Flynt framework](https://flyntwp.com/).
+
+**This version is for use with version 0.x only. To develop with the latest version of Flynt please use the official [Flynt Snippets extension](https://marketplace.visualstudio.com/itemdetails?itemName=flyntwp.flynt-vscode-snippets) instead.**
 
 ## Install
 
