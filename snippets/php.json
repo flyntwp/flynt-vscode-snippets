@@ -73,7 +73,7 @@
       "\t'name' => '$2',",
       "\t'type' => 'wysiwyg',",
       "\t'tabs' => '${3|visual\\,text,visual,text|}',",
-      "\t'toolbar' => '${4|full,basic|}',",
+      "\t'toolbar' => '${4|default,basic|}',",
       "\t'media_upload' => ${5|0,1|},",
       "\t'delay' => ${6|1,0|}",
       "],"
