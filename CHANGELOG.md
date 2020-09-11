@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v1.0.0...v1.1.0) (2020-09-11)
+
+
+### Features
+
+* add snippets for DateTime, Time & Color pickers ([6d41041](https://github.com/flyntwp/flynt-vscode-snippets/commit/6d41041))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/flyntwp/flynt-vscode-snippets/compare/v0.8.0...v1.0.0) (2019-04-11)
 
