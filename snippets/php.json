@@ -346,6 +346,47 @@
       "],"
     ]
   },
+  "Date Time Picker": {
+    "prefix": "flyntDateTimePicker",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'date_time_picker',",
+      "\t'time_format' => '${3:h:mm tt}',",
+      "\t'show_date' => '${4|true, false|}',",
+      "\t'display_format' => '${5:m/d/y}',",
+      "\t'return_format' => '${6:m/d/y}',",
+      "\t'show_week_number' => '${7|true, false|},",
+      "\t'picker' => 'slider',",
+      "\t'save_as_timestamp' => '${8|true, false|}',",
+      "\t'get_as_timestamp' => '${9|true, false|}',",
+      "],"
+    ]
+  },
+  "Time Picker": {
+    "prefix": "flyntTimePicker",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'time_picker',",
+      "\t'display_format' => '${3:g:i a}',",
+      "\t'return_format' => '${4:g:i a}',",
+      "],"
+    ]
+  },
+  "Color Picker": {
+    "prefix": "flyntColorPicker",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'color_picker',",
+      "\t'default_value' => '${3:#ffffff}',",
+      "],"
+    ]
+  },
   "Message": {
     "prefix": "flyntMessage",
     "body": [
